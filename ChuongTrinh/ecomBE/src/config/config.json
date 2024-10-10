@@ -1,0 +1,28 @@
+{
+  "development": {
+    "username": "root",
+    "password": "HaUINumber1",
+    "database": "ecom",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false,
+    "query": {
+      "raw": true
+    },
+    "timezone": "+07:00"
+  },
+  "test": {
+    "username": "root",
+    "password": "HaUINumber1",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "HaUINumber1",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
